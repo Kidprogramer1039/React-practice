@@ -85,5 +85,9 @@
 - context 값에 접근할 경우, 컴포넌트 함수가 재실행됨(새로운 UI 생성 목적).
 ```
 
-### context API 로직 과부하 대처
-- APP 컴포넌트에서 설정하지 말고, context가 지정된 컴포넌트에서 정리하자.
+### context API로 인한 APP 컴포넌트 과부하 대처
+- APP 컴포넌트에서 설정하지 말고, context가 지정된 컴포넌트에서 정리하자.(context outsourcing)
+
+### useReducer
+- 여러 복잡한 값을 단순한 값으로 치환해주는 함수
+- 상태값을 useReducer를 이용하여 수정해 줄 수도 있음
